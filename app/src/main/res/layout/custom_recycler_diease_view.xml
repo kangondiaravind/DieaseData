@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="6dp"
+        card_view:contentPadding="25dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_diease_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Diease Name :" />
+
+                <TextView
+                    android:id="@+id/tv_diease_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Fever" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_state_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="State Name :" />
+
+                <TextView
+                    android:id="@+id/tv_state_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Karnataka" />
+            </TableRow>
+
+            <TableRow
+
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_district_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="District Name :" />
+
+                <TextView
+                    android:id="@+id/tv_district_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chickballapur" />
+            </TableRow>
+
+            <TableRow
+
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_goats_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No of Goats :" />
+
+                <TextView
+                    android:id="@+id/tv_goats_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_cattle_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No of Cattle :" />
+
+                <TextView
+                    android:id="@+id/tv_cattle_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000" />
+            </TableRow>
+
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_buffalo_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No of Buffalo :" />
+
+                <TextView
+                    android:id="@+id/tv_buffalo_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000" />
+            </TableRow>
+
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_sheeps_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No of Sheeps :" />
+
+                <TextView
+                    android:id="@+id/tv_sheeps_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_pigs_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No of Pigs :" />
+
+                <TextView
+                    android:id="@+id/tv_pigs_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000" />
+            </TableRow>
+
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_outcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Outcome :" />
+
+                <TextView
+                    android:id="@+id/tv_outcome_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="High Risk" />
+            </TableRow>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
